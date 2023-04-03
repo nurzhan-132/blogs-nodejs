@@ -1,0 +1,11 @@
+.login-auth-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 320px;
+    text-align: center;
+}
+
+.login-auth-container h2 {
+    margin-bottom: 20px;
+}
