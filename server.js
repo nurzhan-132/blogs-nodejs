@@ -18,6 +18,9 @@ app.get('/auth', (req, res) => {
     res.render('auth')
 })
 
+app.get('/my-blogs', (req, res) => {
+    res.render('my-blogs')
+})
 const PORT = 8000;
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
