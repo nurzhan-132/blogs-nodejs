@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    display: flex;
+    padding: 50px 100px;
+    gap: 24px;
+}
+
+.blogs {
+    width: 72%;
+    padding: 36px 60px;
+    background-color: #fff;    
+}
+
+.blogs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.blogs-title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.blogs-subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.blog-cover {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-description-title {
+    margin: 40px 0;
+}
+
+.categories-container {
+    background-color: #fff;
+}
+
+.blog-description {
+    margin-bottom: 60px;
+}
+
+.blog-info, .blog-date, .blog-viewed, .blog-comments, .blog-discussions, .blog-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
