@@ -1,3 +1,7 @@
+* {
+	font-family: 'Roboto', cursive;
+}
+
 p,h6,h5,h4,button, input {
 	font-size: 16px;
 	line-height: 24px;

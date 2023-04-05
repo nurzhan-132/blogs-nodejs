@@ -1,0 +1,54 @@
+.new-blog-container {
+    padding: 50px 100px;
+}
+
+.new-blog {
+    background-color: #fff;
+    padding: 36px 60px;
+}
+
+.new-blog h2 {
+    margin-bottom: 40px;
+}
+
+.new-blog form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 70%;
+}
+
+.new-blog select {
+    background: #fff;
+    outline: none;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px 0px 0px 4px;
+    padding: 12px 20px;
+    color: rgba(0, 0, 0, 0.54);    
+}
+
+.new-blog select {
+    color: rgba(0, 0, 0, 0.54);   
+
+}
+
+.new-blog-img-picker {
+    border: 1px solid #FFF72F;
+    background-color: #FFF72F;
+	padding: 12px 20px;
+    font-weight: 500;
+    width: max-content;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.new-blog textarea {
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.new-block-btn {
+    width: max-content;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head.ejs') %>
+    <title>Blogs</title>
+</head>
+<body>
+    <%- include('partials/header.ejs') %>  
+    <div class="new-blog-container">
+        <div class="new-blog">
+            <h2>Новый блог</h2>
+            <form action="">
+                <input type="text" placeholder="Введите заголовок блога">
+                <select name="" id="">
+                    <option value="" disabled selected hidden>Выберите категорию</option>
+                    <option value="">Разработка игр</option>
+                    <option value="">Веб-разработка</option>
+                </select>
+                <label class="new-blog-img-picker">
+                    <input type="file"/>
+                    Выберите картинку
+                </label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Введите описание блога"></textarea>
+                <button class="new-block-btn">Создать</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
